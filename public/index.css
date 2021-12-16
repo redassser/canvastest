@@ -8,19 +8,21 @@ body {
     background-color: #121212
 }
 #canvascont {
-    height: 800px;
-    width: 800px;
+    display:flex;
+    flex-direction: column;
     background-color: #2e2e2e;
     border: 10px solid #989898;
     margin-top: 30px;
 }
-#head {
-    height:50px;
-    width:800px;
-    background-color: #989898;
+#header {
+    height: 50px;
+    width:auto;
+    background-color: #5a5a5a;
     display: flex;
+    flex-direction: row-reverse;
 }
 .inp {
-    height:15px;
-    width:25px;
+    margin:8px;
+    color:"white";
+    background-color: "white";
 }
